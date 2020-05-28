@@ -1,0 +1,37 @@
+*{
+    margin: 0px auto;
+    font-family: 'Inconsolata', monospace;;
+}
+
+/* cabeçalho*/
+.cabeçalho{
+    color: blanchedalmond;
+    text-align: center;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    
+    
+}
+
+.cabeçalho h1{
+    font-size: 4em;
+}
+
+/* bloco*/
+
+.blacos{
+    margin-top: -150px;
+    background: rgba(0,0,0,0.3);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+/* card */
+.card{
+    background-size: cover;
+    background-position: center;
+}
+
