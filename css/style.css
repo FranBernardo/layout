@@ -7,10 +7,10 @@
 .cabeçalho{
     color: blanchedalmond;
     text-align: center;
-    height: 60vh;
+    height: 40vh;
     background-size: cover;
     background-position: center;
-    padding: 150px 0;
+    padding: 130px 0;
     
     
 }
@@ -22,16 +22,86 @@
 /* bloco*/
 
 .blacos{
-    margin-top: -150px;
-    background: rgba(0,0,0,0.3);
-    height: 100vh;
+    margin-top: -190px;
+    background: rgb(94, 92, 92);
+    height: 40vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 }
 /* card */
 .card{
     background-size: cover;
     background-position: center;
+    text-align: center;
+    display: grid;
+    justify-content: space-around;
+
+}
+.card img{
+    height: 150px;
+    object-fit: cover;
+
+}
+.card p{
+    color:firebrick;
 }
 
+
+/* botao */
+.botao{
+    box-shadow: 10px 10px 10px black;
+    border: 1px solid black;
+    background: black;
+    border-radius: 5px;
+    padding: 8px 24px;
+    height: 15px;
+    
+}
+.botaoP{
+    box-shadow: 10px 10px 10px antiquewhite;
+    border: 1px solid sienna;
+    background: burlywood;
+    border-radius: 5px;
+    padding: 8px 24px;
+    height: 15px;
+}
+/* informaçao de todos */
+.maisL{
+    display: none;
+}
+.maislaite{
+    display: none;
+}
+.maismisa{
+    display: none;
+}
+.maisruuku{
+    display: none;
+}
+
+/* rodapé */
+.footer{
+    height: 10vh;
+    display: grid;
+    align-items: center;
+    background: rgb(94, 92, 92);
+    color: antiquewhite;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    
+}
+.links a{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+    color: antiquewhite;
+    opacity: 0.15;
+}
+
+.links a:hover{
+    opacity: 1;
+}
